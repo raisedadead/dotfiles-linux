@@ -1,9 +1,11 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
-brew "awscli", link: false
+brew "python@3.8"
+brew "awscli"
 brew "azure-cli"
 brew "diff-so-fancy"
 brew "doctl"
+brew "fd"
 brew "fzf"
 brew "fzy"
 brew "gcc"
