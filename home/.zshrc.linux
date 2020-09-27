@@ -1,0 +1,6 @@
+#-----------------------------
+# Path
+#-----------------------------
+
+export PATH="/home/linuxbrew/.linuxbrew/opt/crowdin@3/bin:$PATH"
+
