@@ -8,3 +8,11 @@
 # linuxbrew
 #-----------------------------
 [ -d /home/linuxbrew ] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+#-----------------------------
+# pyenv
+#-----------------------------
+export PATH="/home/{USERNAME}/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
