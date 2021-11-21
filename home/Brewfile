@@ -16,8 +16,8 @@ brew "gcc"
 brew "sqlite"
 # Official Amazon AWS command-line interface
 brew "awscli"
-# Microsoft Azure CLI 2.0
-brew "azure-cli"
+# Microsoft Azure CLI 2.0 - REMOVED USE APT INSTEAD
+# brew "azure-cli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Tool for service discovery, monitoring and configuration
