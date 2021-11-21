@@ -2,33 +2,63 @@ tap "dopplerhq/cli"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/core"
+# Portable Foreign Function Interface library
 brew "libffi"
+# GNOME XML library
 brew "libxml2"
+# Freely available high-quality data compressor
 brew "bzip2"
+# General-purpose data compression with high compression ratio
 brew "xz"
+# GNU compiler collection
 brew "gcc"
+# Command-line interface for SQLite
 brew "sqlite"
+# Official Amazon AWS command-line interface
 brew "awscli"
+# Microsoft Azure CLI 2.0
 brew "azure-cli"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Tool for service discovery, monitoring and configuration
 brew "consul"
+# Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Command-line tool for DigitalOcean
 brew "doctl"
+# Simple, fast and user-friendly alternative to find
 brew "fd"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
 brew "gh"
+# Alternative to top/htop
 brew "glances"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Add GitHub support to git on the command-line
 brew "hub"
+# XML security library
 brew "libxmlsec1"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Distributed, Highly Available, Datacenter-Aware Scheduler
 brew "nomad"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Tool for creating identical machine images for multiple platforms
 brew "packer"
+# Safe, concurrent, practical language
 brew "rust"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Programmatically correct mistyped console commands
 brew "thefuck"
+# Additional completion definitions for zsh
 brew "zsh-completions"
+# The official Doppler CLI for managing your secrets
 brew "dopplerhq/cli/doppler"
+# Boundary
 brew "hashicorp/tap/boundary"
+# Waypoint
 brew "hashicorp/tap/waypoint"
