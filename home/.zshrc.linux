@@ -14,5 +14,6 @@
 #-----------------------------
 export PATH="$HOME/.pyenv/bin:$PATH"
 [ -d $HOME/.pyenv ] && eval "$(pyenv init --path)"
-[ -d $HOME/.pyenv ] && eval "$(pyenv virtualenv-init -)"
+# avoid conflicts with homebrew
+[ -d $HOME/.pyenv ] && alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
